@@ -8023,11 +8023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\webbanhang\\Demo\\Demo\\Demo.csproj",
+      "projectUniqueName": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "E:\\webbanhang\\Demo\\Demo\\Demo.csproj",
+      "projectPath": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\dragm\\.nuget\\packages\\",
-      "outputPath": "E:\\webbanhang\\Demo\\Demo\\obj\\",
+      "outputPath": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dragm\\AppData\\Roaming\\NuGet\\NuGet.Config",
