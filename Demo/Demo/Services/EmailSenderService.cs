@@ -16,7 +16,7 @@ namespace Demo.Services
         public async Task SendEmailAsync(EmailMessage message)
         {
             var emaiMessage = CreateEmailMessage(message);
-            await Send(emaiMessage);
+            await SendEmailAsync(emaiMessage);
 
         }
 
@@ -30,7 +30,7 @@ namespace Demo.Services
 
             return emailMessage;
         }
-        private async Task Send(MimeMessage mail)
+        private async Task SendEmailAsync(MimeMessage mail)
         {
             using(var client = new SmtpClient())
             {
