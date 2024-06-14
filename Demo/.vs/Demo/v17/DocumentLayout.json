@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\webbanhang\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\helpers\\email\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\helpers\\email\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\helpers\\email\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\helpers\\email\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\webbanhang\\Demo\\Demo\\Migrations\\20240614014000_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo\\Migrations\\20240614014000_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\interfaces\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\dtos\\account\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\account\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\demo\\demo\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\appsettings.json",
+              "RelativeDocumentMoniker": "Demo\\appsettings.json",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\appsettings.json",
+              "RelativeToolTip": "Demo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T02:01:33.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\AccountRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAASwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:12:54.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailMessage.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Helpers\\Email\\EmailMessage.cs",
+              "RelativeDocumentMoniker": "Demo\\Helpers\\Email\\EmailMessage.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Helpers\\Email\\EmailMessage.cs",
+              "RelativeToolTip": "Demo\\Helpers\\Email\\EmailMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:54:06.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailSenderService.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Services\\EmailSenderService.cs",
+              "RelativeDocumentMoniker": "Demo\\Services\\EmailSenderService.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Services\\EmailSenderService.cs",
+              "RelativeToolTip": "Demo\\Services\\EmailSenderService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAmwBkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:07:56.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountsController.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAWwB8AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:23:59.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Program.cs",
+              "RelativeToolTip": "Demo\\Program.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAnwIQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:41:20.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailConfiguration.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Helpers\\Email\\EmailConfiguration.cs",
+              "RelativeDocumentMoniker": "Demo\\Helpers\\Email\\EmailConfiguration.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Helpers\\Email\\EmailConfiguration.cs",
+              "RelativeToolTip": "Demo\\Helpers\\Email\\EmailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:34:54.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\ImagesController.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:23:17.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Interfaces\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\IImageRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Interfaces\\IImageRepository.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\IImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:23:10.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Repositories\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\ImageRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Repositories\\ImageRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\ImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:22:58.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240614014000_create-database.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Migrations\\20240614014000_create-database.cs",
+              "RelativeDocumentMoniker": "Demo\\Migrations\\20240614014000_create-database.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Migrations\\20240614014000_create-database.cs",
+              "RelativeToolTip": "Demo\\Migrations\\20240614014000_create-database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:40:01.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmailSenderService.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Interfaces\\IEmailSenderService.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\IEmailSenderService.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Interfaces\\IEmailSenderService.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\IEmailSenderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:04:42.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUpDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\DTOs\\Account\\SignUpDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Account\\SignUpDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\DTOs\\Account\\SignUpDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Account\\SignUpDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:13:53.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\OrderRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\OrderRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHEAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:21:27.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ImageDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Demo\\Demo\\DTOs\\ImageDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\ImageDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Demo\\Demo\\DTOs\\ImageDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\ImageDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T18:13:34.607Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

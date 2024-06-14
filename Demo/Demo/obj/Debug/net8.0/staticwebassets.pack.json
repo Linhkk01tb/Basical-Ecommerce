@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\1.1.1.1.1.png",
+      "PackagePath": "staticwebassets\\Images\\1.1.1.1.1.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\1.png",
+      "PackagePath": "staticwebassets\\Images\\1.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\1123.png",
+      "PackagePath": "staticwebassets\\Images\\1123.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\123456.png",
+      "PackagePath": "staticwebassets\\Images\\123456.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\FluentAPI.png",
+      "PackagePath": "staticwebassets\\Images\\FluentAPI.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\IMG_20240525_195226.jpg",
+      "PackagePath": "staticwebassets\\Images\\IMG_20240525_195226.jpg"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\Untitled.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\appsettingSecretKey.png",
+      "PackagePath": "staticwebassets\\Images\\appsettingSecretKey.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\repositoryExp.png",
+      "PackagePath": "staticwebassets\\Images\\repositoryExp.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\repositoryExp2.png",
+      "PackagePath": "staticwebassets\\Images\\repositoryExp2.png"
+    },
+    {
+      "Id": "E:\\webbanhang\\Demo\\Demo\\wwwroot\\Images\\z3800260623528_0d8f0223bdff8206f19de3434a984a45.png",
+      "PackagePath": "staticwebassets\\Images\\z3800260623528_0d8f0223bdff8206f19de3434a984a45.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Demo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Demo.props",
+      "PackagePath": "build\\Demo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Demo.props",
+      "PackagePath": "buildMultiTargeting\\Demo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Demo.props",
+      "PackagePath": "buildTransitive\\Demo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
