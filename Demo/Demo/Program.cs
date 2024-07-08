@@ -134,7 +134,10 @@ app.UseCors(x => x
      .AllowAnyMethod()
      .AllowAnyHeader()
      .AllowCredentials()
+<<<<<<< HEAD
 //.WithOrigins("http://127.0.0.1:5500/"));
+=======
+>>>>>>> 31e1bc54f771316bc8f4129fa5fdf99b695c3139
       .SetIsOriginAllowed(origin => true));
 app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions
