@@ -8,6 +8,9 @@ namespace Demo.Interfaces
         Task AddImageAsync(Image image);
         //Task<ImageDTO> AddImageAsync(Image image);
         Task<List<ImageDTO>> GetAllImageByProductAsync(Guid productId);
+        Task<string?> GetImagePathByIdAsync(Guid imageId);
+        Task<string?> GetImageByIdAsync(Guid imageId);
+
         Task<string> RemoveImageAsync(Guid imageId);
 
         Task UpdateAvatarAsync(Guid imageId);

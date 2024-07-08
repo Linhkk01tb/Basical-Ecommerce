@@ -198,11 +198,12 @@ namespace Demo.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("OrderStatus")
                         .HasColumnType("int");
+
+                    b.Property<string>("ReceivedAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ReceivedDate")
                         .HasColumnType("datetime2");
@@ -325,13 +326,13 @@ namespace Demo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "70eb0b6f-c1e5-4ed0-be51-de07e237e631",
+                            Id = "5c12df84-302c-4f3b-a476-42b973ec2d80",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "bafac132-fc53-4bfb-99d3-ae0e9ed56e5d",
+                            Id = "2d43bd10-6fdf-4826-bf99-8033ebb19d2d",
                             Name = "User",
                             NormalizedName = "USER"
                         });

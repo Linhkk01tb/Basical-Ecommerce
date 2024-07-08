@@ -5,6 +5,7 @@ using Demo.Interfaces;
 using Demo.Mapper;
 using Demo.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.Controllers
@@ -24,7 +25,7 @@ namespace Demo.Controllers
         }
 
         [HttpGet]
-
+        [AllowAnonymous]
         public async Task<IActionResult> GetAll([FromQuery] ProductQueryObject queryObject)
         {
             if (!ModelState.IsValid)
@@ -33,6 +34,7 @@ namespace Demo.Controllers
             var productsRes = products.Select(s => s.ToProductDTO()).ToList();
             return StatusCode(StatusCodes.Status200OK, new
             {
+                total = await _productRepository.CountProductAsync(),
                 pageNumber = queryObject.PageNumber,
                 pageSize = queryObject.PageSize,
                 productsRes
@@ -40,7 +42,7 @@ namespace Demo.Controllers
         }
 
         [HttpGet("{productId:guid}")]
-
+        [AllowAnonymous]
         public async Task<IActionResult> GetById(Guid productId)
         {
             if (!ModelState.IsValid)

@@ -15,12 +15,6 @@ namespace Demo.Repositories
         {
             _context = context;
         }
-        //public async Task<ImageDTO> AddImageAsync(Image image)
-        //{
-        //    await _context.Images.AddAsync(image);
-        //    await _context.SaveChangesAsync();
-        //    return image.ToImageDTO();
-        //}
         public async Task AddImageAsync(Image image)
         {
             await _context.Images.AddAsync(image);
@@ -35,6 +29,20 @@ namespace Demo.Repositories
             return await _context.Images.Where(im => im.ProductId == productId).Select(s=>s.ToImageDTO()).ToListAsync();
         }
 
+        public async Task<string?> GetImagePathByIdAsync(Guid imageId)
+        {
+            var image = await _context.Images!.FindAsync(imageId);
+            if (image == null)
+                return null;
+            return Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images", image.ImageName);
+        }
+        public async Task<string?> GetImageByIdAsync(Guid imageId)
+        {
+            var image = await _context.Images!.FindAsync(imageId);
+            if (image == null)
+                return null;
+            return image.ImageName;
+        }
         public async Task<string> RemoveImageAsync(Guid imageId)
         {
             var deleteImage = await _context.Images.SingleOrDefaultAsync(im => im.ImageId == imageId);

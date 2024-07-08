@@ -10,5 +10,7 @@ namespace Demo.Interfaces
         Task CreateCartAsync(AppUser user);
         Task<string> AddToCartAsync(Guid cartId, Guid productId, int buyQuanlity = 1);
         Task<string> RemoveFromCartAsync(Guid cartId, Guid productId);
+
+        Task UpdateCartAsync(Guid cartId);
     }
 }

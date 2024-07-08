@@ -17,7 +17,7 @@ namespace Demo.DTOs.Product
         /// <summary>
         /// Số lượng sản phẩm
         /// </summary>
-        public int ProductQuantiy { get; set; }
+        public int ProductQuantity { get; set; }
 
         /// <summary>
         /// Giá sản phẩm
@@ -30,6 +30,9 @@ namespace Demo.DTOs.Product
         public string? ProductDescription { get; set; }
 
         public int CategoryId { get; set; }
+
+        public string CategoryName { get; set; } = string.Empty;
+
         public ICollection<ImageDTO> Images { get; set; } = new List<ImageDTO>();
     }
 }

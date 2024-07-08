@@ -21,9 +21,9 @@ namespace Demo.DTOs.Order
         public string ReceivedName { get; set; } = string.Empty;
 
         /// <summary>
-        /// Ngày đặt hàng
+        /// Địa chỉ người nhận
         /// </summary>
-        public DateTime OrderDate { get; set; }
+        public string ReceivedAddress { get; set; } = string.Empty;
 
         // <summary>
         /// Ngày nhận hàng
@@ -45,6 +45,6 @@ namespace Demo.DTOs.Order
         /// </summary>
         public OrderStatusCodes OrderStatus { get; set; }
 
-        public ICollection<OrderDetail> OrderDetails { get; set;} = new HashSet<OrderDetail>();
+        public List<OrderDetailDTO> OrderDetails { get; set; } = new List<OrderDetailDTO>();
     }
 }

@@ -1,10 +1,8 @@
 ﻿using Demo.Data;
-using Demo.DTOs;
 using Demo.DTOs.Order;
 using Demo.Enums;
 using Demo.Helpers.QueryObjects;
 using Demo.Interfaces;
-using Demo.Mappers;
 using Demo.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,11 +13,13 @@ namespace Demo.Repositories
     {
         private readonly DemoDbContext _context;
         private readonly IOrderDetailRepository _orderDetailRepository;
+        private readonly ICartRepository _cartRepository;
 
-        public OrderRepository(DemoDbContext context, IOrderDetailRepository orderDetailRepository)
+        public OrderRepository(DemoDbContext context, IOrderDetailRepository orderDetailRepository, ICartRepository cartRepository)
         {
             _context = context;
             _orderDetailRepository = orderDetailRepository;
+            _cartRepository = cartRepository;
         }
 
         public async Task<Order> CreateOrderAsync(AppUser user, CreateOrderDTO orderDTO)
@@ -32,8 +32,8 @@ namespace Demo.Repositories
                 ReceivedName = orderDTO.ReceivedName,
                 ReceivedEmail = orderDTO.ReceivedEmail,
                 ReceivedPhoneNumber = orderDTO.ReceivedPhoneNumber,
+                ReceivedAddress = orderDTO.ReceivedAddress,
                 OrderCode = "OD" + new Random().Next(999) + new Random().Next(999) + new Random().Next(999) + new Random().Next(999),
-                OrderDate = DateTime.UtcNow.ToLocalTime(),
                 ReceivedDate = DateTime.UtcNow.ToLocalTime().AddDays(4),
                 CreatedDate = DateTime.UtcNow.ToLocalTime(),
                 ModifiedDate = DateTime.UtcNow.ToLocalTime()
@@ -45,7 +45,7 @@ namespace Demo.Repositories
 
         public async Task<Order?> DeleteOrderAsync(Guid orderId)
         {
-            var deleteOrder = await _context.Orders!.SingleOrDefaultAsync(od => od.OrderId == orderId);
+            var deleteOrder = await _context.Orders!.Include(od => od.OrderDetails).ThenInclude(od => od.Product).SingleOrDefaultAsync(od => od.OrderId == orderId);
             if (deleteOrder == null)
                 return null;
             _context.Orders.Remove(deleteOrder);
@@ -56,7 +56,7 @@ namespace Demo.Repositories
 
         public async Task<List<Order>> GetAllOrdersAsync(OrderQueryObject queryObject)
         {
-            var orders = _context.Orders!.AsQueryable();
+            var orders = _context.Orders!.Include(od => od.OrderDetails).ThenInclude(od => od.Product).AsQueryable();
             if (!string.IsNullOrWhiteSpace(queryObject.OrderCode))
             {
                 orders = orders.Where(ct => ct.OrderCode.Contains(queryObject.OrderCode));
@@ -65,14 +65,14 @@ namespace Demo.Repositories
             {
                 switch (queryObject.SortBy)
                 {
-                    case "OrderDate":
-                        orders = queryObject.IsDescending ? orders.OrderByDescending(ct => ct.OrderDate) : orders.OrderBy(ct => ct.OrderDate);
+                    case "CreatedDate":
+                        orders = queryObject.IsDescending ? orders.OrderByDescending(ct => ct.CreatedDate) : orders.OrderBy(ct => ct.CreatedDate);
                         break;
                     case "ModifiedDate":
                         orders = queryObject.IsDescending ? orders.OrderByDescending(ct => ct.ModifiedDate) : orders.OrderBy(ct => ct.ModifiedDate);
                         break;
                     default:
-                        orders = orders.OrderByDescending(ct => ct.OrderDate);
+                        orders = orders.OrderByDescending(ct => ct.CreatedDate);
                         break;
                 }
             }
@@ -82,7 +82,7 @@ namespace Demo.Repositories
 
         public async Task<Order?> GetOrderByIdAsync(Guid orderId)
         {
-            var orderById = await _context.Orders!.FindAsync(orderId);
+            var orderById = await _context.Orders!.Include(od => od.OrderDetails).ThenInclude(od=>od.Product).SingleOrDefaultAsync(od => od.OrderId == orderId);
             if (orderById == null)
                 return null;
             return orderById;
@@ -90,7 +90,7 @@ namespace Demo.Repositories
 
         public async Task<List<Order>> GetOrderByUserAsync(AppUser user, OrderQueryObject queryObject)
         {
-            var orders = _context.Orders!.Include(od => od.OrderDetails).Where(u => u.UserId == user.Id).AsQueryable();
+            var orders = _context.Orders!.Where(u => u.UserId == user.Id).Include(od=>od.OrderDetails).ThenInclude(od=>od.Product).AsQueryable();
             if (!string.IsNullOrWhiteSpace(queryObject.OrderCode))
             {
                 orders = orders.Where(ct => ct.OrderCode.Contains(queryObject.OrderCode));
@@ -100,13 +100,13 @@ namespace Demo.Repositories
                 switch (queryObject.SortBy)
                 {
                     case "OrderDate":
-                        orders = queryObject.IsDescending ? orders.OrderByDescending(ct => ct.OrderDate) : orders.OrderBy(ct => ct.OrderDate);
+                        orders = queryObject.IsDescending ? orders.OrderByDescending(ct => ct.CreatedDate) : orders.OrderBy(ct => ct.CreatedDate);
                         break;
                     case "ModifiedDate":
                         orders = queryObject.IsDescending ? orders.OrderByDescending(ct => ct.ModifiedDate) : orders.OrderBy(ct => ct.ModifiedDate);
                         break;
                     default:
-                        orders = orders.OrderByDescending(ct => ct.OrderDate);
+                        orders = orders.OrderByDescending(ct => ct.CreatedDate);
                         break;
                 }
             }

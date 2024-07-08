@@ -1,4 +1,5 @@
-﻿using Demo.DTOs.OrderDetailDTO;
+﻿using Demo.DTOs;
+using Demo.Models;
 
 namespace Demo.Interfaces
 {

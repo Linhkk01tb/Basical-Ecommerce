@@ -3,12 +3,156 @@
   "WorkspaceRootPath": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\helpers\\queryobjects\\productqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\helpers\\queryobjects\\productqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\helpers\\queryobjects\\orderqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\helpers\\queryobjects\\orderqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\helpers\\queryobjects\\categoryqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\helpers\\queryobjects\\categoryqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\mappers\\orderdetailmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\mappers\\orderdetailmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\order\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\order\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\interfaces\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\order\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\order\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\helpers\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\helpers\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +163,16 @@
       "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\helpers\\email\\emailmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\account\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\account\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\account\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\account\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\helpers\\email\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,28 +187,8 @@
       "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\account\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\migrations\\20240614014000_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\migrations\\20240614014000_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|e:\\webbanhang\\basical-ecommerce\\demo\\demo\\migrations\\20240622190904_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55FFF779-20B2-4520-A663-4610C087ACD3}|Demo\\Demo.csproj|solutionrelative:demo\\migrations\\20240622190904_create-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +198,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,32 +206,488 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\appsettings.json",
-              "RelativeDocumentMoniker": "Demo\\appsettings.json",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\appsettings.json",
-              "RelativeToolTip": "Demo\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T02:01:33.648Z"
+              "DocumentIndex": 1,
+              "Title": "ProductQueryObject.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\QueryObjects\\ProductQueryObject.cs",
+              "RelativeDocumentMoniker": "Demo\\Helpers\\QueryObjects\\ProductQueryObject.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\QueryObjects\\ProductQueryObject.cs",
+              "RelativeToolTip": "Demo\\Helpers\\QueryObjects\\ProductQueryObject.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T23:15:44.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryQueryObject.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\QueryObjects\\CategoryQueryObject.cs",
+              "RelativeDocumentMoniker": "Demo\\Helpers\\QueryObjects\\CategoryQueryObject.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\QueryObjects\\CategoryQueryObject.cs",
+              "RelativeToolTip": "Demo\\Helpers\\QueryObjects\\CategoryQueryObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T23:15:31.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetailMapper.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Mappers\\OrderDetailMapper.cs",
+              "RelativeDocumentMoniker": "Demo\\Mappers\\OrderDetailMapper.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Mappers\\OrderDetailMapper.cs",
+              "RelativeToolTip": "Demo\\Mappers\\OrderDetailMapper.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T20:20:34.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Product\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Product\\ProductDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Product\\ProductDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Product\\ProductDTO.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowBwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:41:12.127Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Mappers\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "Demo\\Mappers\\ProductMapper.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Mappers\\ProductMapper.cs",
+              "RelativeToolTip": "Demo\\Mappers\\ProductMapper.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAcwAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:41:38.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderQueryObject.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\QueryObjects\\OrderQueryObject.cs",
+              "RelativeDocumentMoniker": "Demo\\Helpers\\QueryObjects\\OrderQueryObject.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\QueryObjects\\OrderQueryObject.cs",
+              "RelativeToolTip": "Demo\\Helpers\\QueryObjects\\OrderQueryObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T23:15:39.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\ProductRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T12:41:25.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Program.cs",
+              "RelativeToolTip": "Demo\\Program.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAtwI4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:41:20.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAA7wGUAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:27:29.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderMapper.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Mappers\\OrderMapper.cs",
+              "RelativeDocumentMoniker": "Demo\\Mappers\\OrderMapper.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Mappers\\OrderMapper.cs",
+              "RelativeToolTip": "Demo\\Mappers\\OrderMapper.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T16:56:40.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\OrderRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\OrderRepository.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwFQAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:21:27.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Order\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Order\\OrderDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Order\\OrderDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Order\\OrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T16:55:35.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateCategoryDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Category\\CreateCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Category\\CreateCategoryDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Category\\CreateCategoryDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Category\\CreateCategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:29:53.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDetailDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\OrderDetailDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\OrderDetailDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\OrderDetailDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\OrderDetailDTO.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:28:23.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\OrderDetail.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Demo\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:29:14.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwCwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:58:59.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateProductDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Product\\CreateProductDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Product\\CreateProductDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Product\\CreateProductDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Product\\CreateProductDTO.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwBwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:41:23.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "Demo\\Repositories\\AccountRepository.cs",
               "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\AccountRepository.cs",
               "RelativeToolTip": "Demo\\Repositories\\AccountRepository.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAEwEEAAAA3AAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAUwDoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T16:12:54.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T16:12:54.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwC4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:04:56.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\OrderDetailRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\OrderDetailRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\OrderDetailRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowB8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:45:36.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\IOrderDetailRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\IOrderDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:45:00.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240622190904_create-database.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Migrations\\20240622190904_create-database.cs",
+              "RelativeDocumentMoniker": "Demo\\Migrations\\20240622190904_create-database.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Migrations\\20240622190904_create-database.cs",
+              "RelativeToolTip": "Demo\\Migrations\\20240622190904_create-database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:09:05.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\Order.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Models\\Order.cs",
+              "RelativeToolTip": "Demo\\Models\\Order.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T16:51:23.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateOrderDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Order\\CreateOrderDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Order\\CreateOrderDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Order\\CreateOrderDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Order\\CreateOrderDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T16:53:45.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\ICartRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\ICartRepository.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\ICartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:52:00.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\CartRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\CartRepository.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAA+wHYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:53:41.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IImageService.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\IImageService.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IImageService.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\IImageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T15:39:53.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountsController.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAUwC8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:23:59.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:36:37.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "Demo\\Services\\ImageService.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Services\\ImageService.cs",
+              "RelativeToolTip": "Demo\\Services\\ImageService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAIwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:21:35.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\ImagesController.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAswCwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:23:17.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Repositories\\ImageRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\ImageRepository.cs",
+              "RelativeToolTip": "Demo\\Repositories\\ImageRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:22:58.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\IImageRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IImageRepository.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\IImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:23:10.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Demo.csproj",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Demo.csproj",
+              "RelativeDocumentMoniker": "Demo\\Demo.csproj",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Demo.csproj",
+              "RelativeToolTip": "Demo\\Demo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T14:18:50.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T12:50:22.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateProductDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Product\\UpdateProductDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Product\\UpdateProductDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Product\\UpdateProductDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Product\\UpdateProductDTO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T09:41:27.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\Utilities.cs",
+              "RelativeDocumentMoniker": "Demo\\Helpers\\Utilities.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\Utilities.cs",
+              "RelativeToolTip": "Demo\\Helpers\\Utilities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:16:39.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "Demo\\Interfaces\\IAccountRepository.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IAccountRepository.cs",
+              "RelativeToolTip": "Demo\\Interfaces\\IAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:13:18.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\appsettings.json",
+              "RelativeDocumentMoniker": "Demo\\appsettings.json",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\appsettings.json",
+              "RelativeToolTip": "Demo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T02:01:33.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EmailSenderService.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Services\\EmailSenderService.cs",
+              "RelativeDocumentMoniker": "Demo\\Services\\EmailSenderService.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Services\\EmailSenderService.cs",
+              "RelativeToolTip": "Demo\\Services\\EmailSenderService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwBwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:07:56.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "EmailMessage.cs",
               "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\Email\\EmailMessage.cs",
               "RelativeDocumentMoniker": "Demo\\Helpers\\Email\\EmailMessage.cs",
@@ -115,43 +699,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailSenderService.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Services\\EmailSenderService.cs",
-              "RelativeDocumentMoniker": "Demo\\Services\\EmailSenderService.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Services\\EmailSenderService.cs",
-              "RelativeToolTip": "Demo\\Services\\EmailSenderService.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAmwBkAAABDAAAA",
+              "DocumentIndex": 40,
+              "Title": "ForgotPasswordDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Account\\ForgotPasswordDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Account\\ForgotPasswordDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Account\\ForgotPasswordDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Account\\ForgotPasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:07:56.267Z"
+              "WhenOpened": "2024-06-15T05:02:26.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\AccountsController.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\AccountsController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAWwB8AAABqAAAA",
+              "DocumentIndex": 42,
+              "Title": "ChangePasswordDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Account\\ChangePasswordDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\Account\\ChangePasswordDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Account\\ChangePasswordDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\Account\\ChangePasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:23:59.827Z"
+              "WhenOpened": "2024-06-15T04:09:53.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Program.cs",
-              "RelativeDocumentMoniker": "Demo\\Program.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Program.cs",
-              "RelativeToolTip": "Demo\\Program.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAnwIQAAAAkAAAA",
+              "DocumentIndex": 41,
+              "Title": "ImageDTO.cs",
+              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\ImageDTO.cs",
+              "RelativeDocumentMoniker": "Demo\\DTOs\\ImageDTO.cs",
+              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\ImageDTO.cs",
+              "RelativeToolTip": "Demo\\DTOs\\ImageDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:41:20.522Z"
+              "WhenOpened": "2024-06-12T18:13:34.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 43,
               "Title": "EmailConfiguration.cs",
               "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Helpers\\Email\\EmailConfiguration.cs",
               "RelativeDocumentMoniker": "Demo\\Helpers\\Email\\EmailConfiguration.cs",
@@ -163,55 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ImagesController.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\ImagesController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\ImagesController.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Controllers\\ImagesController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\ImagesController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:23:17.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IImageRepository.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IImageRepository.cs",
-              "RelativeDocumentMoniker": "Demo\\Interfaces\\IImageRepository.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IImageRepository.cs",
-              "RelativeToolTip": "Demo\\Interfaces\\IImageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:23:10.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ImageRepository.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\ImageRepository.cs",
-              "RelativeDocumentMoniker": "Demo\\Repositories\\ImageRepository.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\ImageRepository.cs",
-              "RelativeToolTip": "Demo\\Repositories\\ImageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:22:58.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240614014000_create-database.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Migrations\\20240614014000_create-database.cs",
-              "RelativeDocumentMoniker": "Demo\\Migrations\\20240614014000_create-database.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Migrations\\20240614014000_create-database.cs",
-              "RelativeToolTip": "Demo\\Migrations\\20240614014000_create-database.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T01:40:01.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 44,
               "Title": "IEmailSenderService.cs",
               "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Interfaces\\IEmailSenderService.cs",
               "RelativeDocumentMoniker": "Demo\\Interfaces\\IEmailSenderService.cs",
@@ -223,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 45,
               "Title": "SignUpDTO.cs",
               "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\Account\\SignUpDTO.cs",
               "RelativeDocumentMoniker": "Demo\\DTOs\\Account\\SignUpDTO.cs",
@@ -232,30 +768,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T16:13:53.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Demo\\Repositories\\OrderRepository.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Demo\\Repositories\\OrderRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHEAAACDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:21:27.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ImageDTO.cs",
-              "DocumentMoniker": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\ImageDTO.cs",
-              "RelativeDocumentMoniker": "Demo\\DTOs\\ImageDTO.cs",
-              "ToolTip": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\DTOs\\ImageDTO.cs",
-              "RelativeToolTip": "Demo\\DTOs\\ImageDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T18:13:34.607Z"
             }
           ]
         }

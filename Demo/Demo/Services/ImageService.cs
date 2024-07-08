@@ -17,6 +17,12 @@ namespace Demo.Services
             _productRepository = productRepository;
             _imageRepository = imageRepository;
         }
+
+        public async Task<Stream> GetImageAsStreamAsync(Guid imageId)
+        {
+            return new MemoryStream(await ConvertImageToByteArray(imageId));
+        }
+
         public async Task<string> UploadFileImageToProduct(Guid productId, IFormFile image)
         {
             var product = await _productRepository.GetProductsByIdAsync(productId);
@@ -30,7 +36,7 @@ namespace Demo.Services
             var newImage = new Image
             {
                 ImageName = image.FileName,
-                ImageUrl = "~/Images/" + image.FileName,
+                ImageUrl = "/Images/" + image.FileName,
                 IsAvatar = true,
                 ProductId = productId
             };
@@ -39,6 +45,14 @@ namespace Demo.Services
                 newImage.IsAvatar = false;
             await _imageRepository.AddImageAsync(newImage);
             return "Added image to product!";
+        }
+
+        private async Task<byte[]> ConvertImageToByteArray(Guid imageId)
+        {
+            var path = await _imageRepository.GetImagePathByIdAsync(imageId);
+            if (path == null)
+                return null;
+            return File.ReadAllBytes(path);
         }
     }
 }

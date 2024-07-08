@@ -6,6 +6,7 @@ using Demo.Helpers.QueryObjects;
 using Demo.Interfaces;
 using Demo.Mappers;
 using Demo.Models;
+using Demo.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -18,11 +19,13 @@ namespace Demo.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly IOrderRepository _orderRepository;
+        private readonly IOrderDetailRepository _orderDetailRepository;
 
-        public OrdersController(IOrderRepository orderRepository, UserManager<AppUser> userManager)
+        public OrdersController(IOrderRepository orderRepository, UserManager<AppUser> userManager, IOrderDetailRepository orderDetailRepository)
         {
             _userManager = userManager;
             _orderRepository = orderRepository;
+            _orderDetailRepository = orderDetailRepository;
         }
 
         [HttpGet]
@@ -44,7 +47,7 @@ namespace Demo.Controllers
 
         [HttpGet]
         [Route("user-order")]
-        [Authorize(Roles = AppRoles.User)]
+        [Authorize]
         public async Task<IActionResult> GetByUser([FromQuery] OrderQueryObject queryObject)
         {
             if (!ModelState.IsValid)
@@ -92,11 +95,13 @@ namespace Demo.Controllers
                 if (!ModelState.IsValid)
                     return StatusCode(StatusCodes.Status400BadRequest, ModelState);
                 var userName = User.GetUserName();
+                var cartId = User.GetCartId();
                 var appUser = await _userManager.FindByNameAsync(userName);
                 if (appUser == null)
                     return StatusCode(StatusCodes.Status401Unauthorized);
                 var newOrder = await _orderRepository.CreateOrderAsync(appUser, orderDTO);
                 var order = newOrder.ToOrderDTO();
+                await _orderDetailRepository.CreateOrderDetailAsync(newOrder.OrderId, Guid.Parse(cartId));
                 return StatusCode(StatusCodes.Status200OK, new
                 {
                     IsCreated = true,

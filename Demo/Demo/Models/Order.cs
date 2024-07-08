@@ -17,11 +17,11 @@ namespace Demo.Models
         /// Tên người nhận
         /// </summary>
         public string ReceivedName { get; set; }
-
+        
         /// <summary>
-        /// Ngày đặt hàng
+        /// Địa chỉ nhận hàng
         /// </summary>
-        public DateTime OrderDate { get; set; }
+        public string ReceivedAddress { get; set; }
 
         // <summary>
         /// Ngày nhận hàng

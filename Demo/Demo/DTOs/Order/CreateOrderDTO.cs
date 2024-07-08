@@ -14,6 +14,12 @@ namespace Demo.DTOs.Order
         public string ReceivedName { get; set; } = string.Empty;
 
         /// <summary>
+        /// Địa chỉ nhận hàng
+        /// </summary>
+        [Required(ErrorMessage ="This field is required!")]
+        [MaxLength(250, ErrorMessage ="Not over 250 characters!")]
+        public string ReceivedAddress { get; set; } = string.Empty;
+        /// <summary>
         /// Số điện thoại người nhận
         /// </summary>
         [Required(ErrorMessage = "This field is required!")]

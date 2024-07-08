@@ -16,6 +16,12 @@ namespace Demo.Repositories
         {
             _context = context;
         }
+
+        public async Task<int> CountProductAsync()
+        {
+            return await _context.Products.CountAsync();
+        }
+
         public async Task<Product> CreateProductAsync(Product product)
         {
             product.CreatedDate = DateTime.UtcNow.ToLocalTime();
@@ -27,7 +33,7 @@ namespace Demo.Repositories
 
         public async Task<Product?> DeleteProductAsync(Guid productId)
         {
-            var deleteProduct = await _context.Products!.SingleOrDefaultAsync(pd => pd.ProductId == productId);
+            var deleteProduct = await _context.Products!.Include(pd=>pd.Category).SingleOrDefaultAsync(pd => pd.ProductId == productId);
             if (deleteProduct == null)
                 return null;
             _context.Products.Remove(deleteProduct);
@@ -37,7 +43,7 @@ namespace Demo.Repositories
 
         public async Task<List<Product>> GetAllProductsAsync(ProductQueryObject queryObject)
         {
-            var products = _context.Products!.Include(pd=>pd.Images).AsQueryable();
+            var products = _context.Products!.Include(pd=>pd.Images).Include(pd=>pd.Category).AsQueryable();
             if (!string.IsNullOrWhiteSpace(queryObject.ProductName))
             {
                 products = products.Where(pd => pd.ProductName.Contains(queryObject.ProductName));
@@ -74,7 +80,7 @@ namespace Demo.Repositories
 
         public async Task<Product?> GetProductsByIdAsync(Guid productId)
         {
-            var productById = await _context.Products!.Include(pd=>pd.Images).SingleOrDefaultAsync(pd => pd.ProductId == productId);
+            var productById = await _context.Products!.Include(pd => pd.Images).Include(pd => pd.Category).SingleOrDefaultAsync(pd => pd.ProductId == productId);
             if (productById == null)
                 return null;
             return productById;

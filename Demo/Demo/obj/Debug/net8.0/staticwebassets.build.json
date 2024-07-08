@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UHsBBjSEcBCiKPXiBP+Dj5b9deXSfGuSpnwPIjwSZbE=",
+  "Hash": "HdYmVfmh3UEbk80ByLz5Vik75il2/VPfKEX1eBCkFrc=",
   "Source": "Demo",
   "BasePath": "_content/Demo",
   "Mode": "Default",
@@ -15,5 +15,63 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\wwwroot\\Images\\1.1.1.1.1.png",
+      "SourceId": "Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\wwwroot\\",
+      "BasePath": "_content/Demo",
+      "RelativePath": "Images/1.1.1.1.1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1.1.1.1.1.png"
+    },
+    {
+      "Identity": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\wwwroot\\Images\\FluentAPI.png",
+      "SourceId": "Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\wwwroot\\",
+      "BasePath": "_content/Demo",
+      "RelativePath": "Images/FluentAPI.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\FluentAPI.png"
+    },
+    {
+      "Identity": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\wwwroot\\Images\\repositoryExp2.png",
+      "SourceId": "Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\webbanhang\\Basical-Ecommerce\\Demo\\Demo\\wwwroot\\",
+      "BasePath": "_content/Demo",
+      "RelativePath": "Images/repositoryExp2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\repositoryExp2.png"
+    }
+  ]
 }

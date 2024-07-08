@@ -109,5 +109,14 @@ namespace Demo.Repositories
             return $"Đã xóa {product.ProductName} khỏi giỏ hàng!";
 
         }
+
+        public async Task UpdateCartAsync(Guid cartId)
+        {
+            var cartItems = await _context.CartItems!.Where(c=>c.CartId == cartId).ToListAsync();
+            foreach (var cartItem in cartItems)
+                cartItem.BuyQuanlity = 1;
+            _context.CartItems.UpdateRange(cartItems);
+            await _context.SaveChangesAsync();
+        }
     }
 }

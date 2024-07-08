@@ -15,10 +15,11 @@ namespace Demo.Mappers
                 ReceivedName = order.ReceivedName,
                 ReceivedPhoneNumber = order.ReceivedPhoneNumber,
                 ReceivedDate = order.ReceivedDate,
-                OrderDate = order.OrderDate,
+                ReceivedAddress = order.ReceivedAddress,
                 OrderStatus = order.OrderStatus,
                 CreatedDate = order.CreatedDate,
-                ModifiedDate = order.ModifiedDate
+                ModifiedDate = order.ModifiedDate,
+                OrderDetails = order.OrderDetails.Select(s=>s.ToOrderDetailDTO()).ToList()
             };
         }
         public static Order ToCreateOrderDTO(this CreateOrderDTO order)
@@ -26,6 +27,7 @@ namespace Demo.Mappers
             return new Order
             {
                 ReceivedEmail = order.ReceivedEmail,
+                ReceivedAddress = order.ReceivedAddress,
                 ReceivedName = order.ReceivedName,
                 ReceivedPhoneNumber = order.ReceivedPhoneNumber,
             };

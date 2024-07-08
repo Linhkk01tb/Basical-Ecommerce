@@ -28,28 +28,56 @@ namespace Demo.Repositories
             _cartRepository = cartRepository;
             _emailSenderService = emailSenderService;
         }
-        public async Task<NewUserDTO?> SignInAsync(SignInDTO signInDTO)
+
+        public async Task<string> ChangePasswordAsync(AppUser user, ChangePasswordDTO changePasswordDTO)
+        {
+            if (user == null)
+                throw new ArgumentNullException(nameof(user));
+            if (!await _userManager.CheckPasswordAsync(user, changePasswordDTO.CurrentPassword))
+                throw new Exception("Current password incorrect!");
+            var result = await _userManager.ChangePasswordAsync(user, changePasswordDTO.CurrentPassword, changePasswordDTO.NewPassword);
+            if (!result.Succeeded)
+                throw new Exception("Found an error when changing password! Try again!");
+            var message = new EmailMessage([user.Email], "Change password", $"Your password is changed from {changePasswordDTO.CurrentPassword} to {changePasswordDTO.NewPassword}");
+            await _emailSenderService.SendEmailAsync(message);
+            return "Password is changed successfully!";
+
+        }
+
+        public async Task<string> ForgotPasswordAsync(ForgotPasswordDTO forgotPasswordDTO)
+        {
+            var user = await _userManager.FindByEmailAsync(forgotPasswordDTO.Email!);
+            if (user == null)
+                throw new Exception("Invalid request!");
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var newPassword = Utilities.GenerateRandomPassword();
+            var resetPassword = await _userManager.ResetPasswordAsync(user, token, newPassword);
+            if (!resetPassword.Succeeded)
+                throw new Exception("Found an error when resetting password!");
+            string sendMail = System.IO.File.ReadAllText(Path.GetFullPath("Helpers/send.html"));
+            sendMail += "Code:" + newPassword;
+            var message = new EmailMessage([user.Email], "Reset password", sendMail);
+            await _emailSenderService.SendEmailAsync(message);
+            return "Password was reset successfully! Please check your email!";
+        }
+
+        public async Task<string?> SignInAsync(SignInDTO signInDTO)
         {
             var user = await _userManager.FindByNameAsync(signInDTO.UserName);
             if (user == null)
                 return null;
-            if(!await _userManager.IsEmailConfirmedAsync(user))
+            if (!await _userManager.IsEmailConfirmedAsync(user))
                 throw new Exception("Email is not confirmed!");
             if (!await _userManager.CheckPasswordAsync(user, signInDTO.Password))
                 throw new Exception("Invalid password!");
             var result = await _signInManager.CheckPasswordSignInAsync(user, signInDTO.Password, false);
             if (!result.Succeeded)
                 throw new Exception("User or password incorrect!Try again!");
-            return new NewUserDTO
-            {
-                UserName = user.UserName,
-                Email = user.Email,
-                Token = await _tokenService.CreateTokenAsync(user)
-            };
+            return await _tokenService.CreateTokenAsync(user);
 
         }
 
-        public async Task<NewUserDTO> SignUpAsync(SignUpDTO signUpDTO)
+        public async Task<string?> SignUpAsync(SignUpDTO signUpDTO)
         {
             var user = new AppUser
             {
@@ -72,13 +100,7 @@ namespace Demo.Repositories
             var message = new EmailMessage([user.Email], "Confirmation Email", $"Please click the link to confirm your account!\nThe link is only valid for 10 minutes from the time this mail is received!\nLink: {callback}");
             await _emailSenderService.SendEmailAsync(message);
             await _cartRepository.CreateCartAsync(user);
-            return new NewUserDTO
-            {
-                UserName = user.UserName,
-                Email = user.Email,
-                Token = await _tokenService.CreateTokenAsync(user)
-            };
-
+            return await _tokenService.CreateTokenAsync(user);
         }
     }
 }

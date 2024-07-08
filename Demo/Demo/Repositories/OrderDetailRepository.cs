@@ -1,8 +1,5 @@
 ﻿using Demo.Data;
-using Demo.DTOs.Order;
-using Demo.DTOs.OrderDetailDTO;
-using Demo.Enums;
-using Demo.Helpers.QueryObjects;
+using Demo.DTOs;
 using Demo.Interfaces;
 using Demo.Models;
 using Microsoft.EntityFrameworkCore;
@@ -26,30 +23,31 @@ namespace Demo.Repositories
             if (order == null)
                 throw new Exception("Order does not exist!");
             var orders = await _context.OrderDetails.Where(o => o.OrderId == orderId).ToListAsync();
-            foreach (var od in orders)
-                foreach (var ct in carts)
+            foreach (var ct in carts)
+            {
+                var orderDetail = new OrderDetail
                 {
-                    if (od.ProductId == ct.ProductId)
-                    {
-                        var orderDetail = new OrderDetail
-                        {
-                            OrderId = orderId,
-                            ProductId = ct.ProductId,
-                            BuyQuantity = ct.BuyQuanlity,
-                            Total = ct.Total,
-                        };
-                        await _context.OrderDetails.AddAsync(orderDetail);
-                    }
-                }
+                    OrderId = orderId,
+                    ProductId = ct.ProductId,
+                    BuyQuantity = ct.BuyQuanlity,
+                    Total = ct.Total,
+                };
+                await _context.OrderDetails.AddAsync(orderDetail);
+                await _context.SaveChangesAsync();
+
+            }
             var products = await _context.Products.ToListAsync();
             foreach (var product in products)
                 foreach (var od in orders)
                 {
                     if (od.ProductId == product.ProductId)
+                    {
                         product.ProductQuantity -= od.BuyQuantity;
-                    _context.Products.Update(product);
+                        _context.Products.Update(product);
+                        await _context.SaveChangesAsync();
+                    }
                 }
-            await _context.SaveChangesAsync();
+
         }
 
         public async Task DeleteOrderDetailAsync(Guid orderId)

@@ -17,5 +17,7 @@ namespace Demo.Interfaces
         Task<Product?> DeleteProductAsync(Guid productId);
 
         Task<bool> HasAvatarAsync(Guid productId);
+
+        Task<int> CountProductAsync();
     }
 }

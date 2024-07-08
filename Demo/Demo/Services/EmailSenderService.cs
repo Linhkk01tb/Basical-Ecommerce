@@ -16,7 +16,7 @@ namespace Demo.Services
         public async Task SendEmailAsync(EmailMessage message)
         {
             var emaiMessage = CreateEmailMessage(message);
-            await Send(emaiMessage);
+            await SendAsync(emaiMessage);
 
         }
 
@@ -26,11 +26,11 @@ namespace Demo.Services
             emailMessage.From.Add(new MailboxAddress("DemoECommerce",_emailConfiguration.From));
             emailMessage.To.AddRange(message.To);
             emailMessage.Subject = message.Subject;
-            emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Text) { Text = message.Body};
+            emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = message.Body};
 
             return emailMessage;
         }
-        private async Task Send(MimeMessage mail)
+        private async Task SendAsync(MimeMessage mail)
         {
             using(var client = new SmtpClient())
             {
